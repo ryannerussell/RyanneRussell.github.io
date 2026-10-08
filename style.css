@@ -50,4 +50,4 @@ button{font:inherit;font-weight:500;background:var(--accent);color:var(--bg);bor
 button:hover{filter:brightness(1.1)}
 .hp{position:absolute;left:-9999px}
 @media (max-width:30rem){.project{grid-template-columns:1fr}.year{padding:0 0 .25rem}}
-.cert-img{display:block;width:100%;max-width:28rem;height:auto;margin-top:1rem;border:1px solid var(--line);border-radius:6px}
+.ConnectAndProtectCert.jpg{display:block;width:100%;max-width:28rem;height:auto;margin-top:1rem;border:1px solid var(--line);border-radius:6px}
