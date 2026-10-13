@@ -1,13 +1,13 @@
 :root{
-  --bg:#000000; --ink:#10203A; --muted:#506078; --accent:#2B4EFF; --line:#C5D1E0;
+  --bg:#000000; --ink:#10203A; --muted:#506078; --accent:##8B0000; --line:#C5D1E0;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
 }
 @media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){--bg:#000000;--ink:#E6EDF7;--muted:#9AA9BF;--accent:#8EA8FF;--line:#263A58}
+  :root:not([data-theme="light"]){--bg:#000000;--ink:#E6EDF7;--muted:#9AA9BF;--accent:##8B0000;--line:#263A58}
 }
-:root[data-theme="dark"]{--bg:#000000;--ink:#E6EDF7;--muted:#9AA9BF;--accent:#8EA8FF;--line:#263A58}
+:root[data-theme="dark"]{--bg:#000000;--ink:#E6EDF7;--muted:#9AA9BF;--accent:##8B0000;--line:#263A58}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 "Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
