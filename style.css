@@ -1,5 +1,5 @@
 :root{
-  --bg:#000000; --ink:#10203A; --muted:#506078; --accent:##8B0000; --line:#C5D1E0;
+  --bg:#000000; --ink:#10203A; --muted:#506078; --accent:#8B0000; --line:#C5D1E0;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
